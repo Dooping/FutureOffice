@@ -1,0 +1,5 @@
+<resources>
+    <string name="google_calendar_key" templateMergeStrategy="preserve" translatable="false">
+        "60464390228-3ufupv8ouvqbqc4ahbkl16b1r3q6vrpi.apps.googleusercontent.com"
+    </string>
+</resources>

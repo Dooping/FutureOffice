@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.office.future.futureoffice.GeneralSettings">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:baselineAligned="false"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:text="Change Address"
+            android:id="@+id/button"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="0dp" />
+    </LinearLayout>
+
+</FrameLayout>

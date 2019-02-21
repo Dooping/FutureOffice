@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.office.future.futureoffice.Help">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal|top"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="Help"
+            android:textColor="#ffffff"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_margin="16dp"
+        android:alpha="0.6"
+        android:background="#000000"
+        android:baselineAligned="false"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="Dont forget to turn Location on!"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="----------------------------------------------"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="Notification does not work if you are days away from your office!"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="----------------------------------------------"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="More question contact: nmm.neves@campus.fct.unl.pt d.gago@campus.fct.unl.pt"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>

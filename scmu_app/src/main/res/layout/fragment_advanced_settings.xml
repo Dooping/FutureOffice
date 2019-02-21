@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.office.future.futureoffice.AdvancedSettings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:alpha="0.6"
+        android:background="#262626"
+        android:baselineAligned="false"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"><![CDATA[>
+
+
+        ]]>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Server Address:"
+                android:id="@+id/textView11"
+                android:textColor="#ffffff"
+                android:layout_marginRight="8dp"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/serverEditText"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:lines="1"
+                android:inputType="textUri"
+                android:background="#0f0f0f"
+                android:hint="localhost:8080"
+                android:textColorHint="#bababa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="center_vertical">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intrusion Detection"
+                android:id="@+id/checkBoxIntrusion"
+                android:textColor="#ffffff"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:checked="false"
+                app:buttonTint="#ffffff" />
+        </LinearLayout>
+
+        <TableLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#181818"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/tableLayout"
+            android:visibility="gone">
+
+            <TableRow
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="From:"
+                    android:id="@+id/fromLabel"
+                    android:textColor="@color/white_text"
+                    android:layout_gravity="center_vertical|right" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fromHour"
+                    android:text="18:00"
+                    android:textColor="@color/white_text"
+                    android:layout_marginLeft="8dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="To:"
+                    android:id="@+id/toLabel"
+                    android:textColor="@color/white_text"
+                    android:layout_gravity="center_vertical|right" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/toHour"
+                    android:text="9:00"
+                    android:textColor="@color/white_text"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>
