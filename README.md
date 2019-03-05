@@ -9,7 +9,7 @@ A home office system that consists of a mobile app, server, and arduino device.
 - Detects intrusions
 - Controls a motor to open and close blinds (replaced by LED's since the motor was broken)
 - Communication is done by wireless transmitter
-- Communication between the arduino and the wireless transmitter is prone to errors so messages are sent several times and the results are averaged
+- Communication between the arduino and the wireless transmitter is prone to errors so messages are sent several times and the majority wins
 
 ### Mobile App
 - Gets events from google calendar
